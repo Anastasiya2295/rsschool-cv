@@ -72,13 +72,7 @@
   }
   
   
-  @media (max-width: 767px) {
-    .burger {display: block;
-    position: relative;
-    width:30px;
-    height: 20px;}
-  }
-  
+
     .main {
       margin-bottom: auto;
     }
@@ -144,7 +138,7 @@
   
     .section-item{
       font-family: 'Roboto';
-      src:url(/assets/fonts/Roboto-Medium.ttf);
+      src:url(/assets/fonts/Roboto-Regular.ttf);
       font-weight:400;
     }
     
@@ -169,10 +163,14 @@
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
-    color: #fff;
+    color: #500000;
     }
     .footer-container{
-      background-color:#500000; 
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        color: #500000;
     }
     
     .rss {width: 121px;
